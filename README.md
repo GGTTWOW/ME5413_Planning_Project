@@ -53,7 +53,7 @@ After forking this repo to your own github:
 ```bash
 # Clone your own fork of this repo (assuming home here `~/`)
 cd
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/ME5413_Planning_Project.git
+git clone https://github.com/GGTTWOW/ME5413_Planning_Project.git
 cd ME5413_Planning_Project
 
 # Install all dependencies
@@ -82,7 +82,7 @@ In the second terminal, launch the path publisher node and the path tracker node
 
 ```bash
 # Load a map and launch AMCL localizer
-roslaunch me5413_world path_tracking.launch
+roslaunch me5413_world path_tracking_1.launch
 ```
 
 ![rviz_tracking_image](src/me5413_world/media/rviz_tracking.png)
