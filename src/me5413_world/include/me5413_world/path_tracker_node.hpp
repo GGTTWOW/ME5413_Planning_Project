@@ -76,6 +76,10 @@ class PathTrackerNode
 
   // Controllers
   control::PID pid_;
+
+  nav_msgs::Path map_path, odom_path;
+
+  geometry_msgs::Point odom_goal_pos, goal_pos;
 };
 
 } // namespace me5413_world
